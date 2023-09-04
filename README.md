@@ -36,7 +36,7 @@ Este é um guia passo a passo para criar uma API de sistema de login utilizando 
 
    - Desenvolvendo a lógica para o hashing de senhas.
 
-9. [ ] Comparando Hashes
+9. [x] Comparando Hashes
 
    - Implementando a comparação de hashes de senhas.
 
