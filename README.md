@@ -16,7 +16,7 @@ Este é um guia passo a passo para criar uma API de sistema de login utilizando 
 
    - Implementando uma extensão de string para funcionalidades auxiliares.
 
-4. [ ] Value Object de Email
+4. [x] Value Object de Email
 
    - Criando um objeto de valor para lidar com endereços de email.
 
