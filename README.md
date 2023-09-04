@@ -40,7 +40,7 @@ Este é um guia passo a passo para criar uma API de sistema de login utilizando 
 
    - Implementando a comparação de hashes de senhas.
 
-10. [ ] Finalizando a entidade User
+10. [x] Finalizando a entidade User
 
     - Concluindo a implementação da entidade User.
 
