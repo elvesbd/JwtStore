@@ -24,7 +24,7 @@ Este é um guia passo a passo para criar uma API de sistema de login utilizando 
 
    - Desenvolvendo um objeto de valor para lidar com a verificação de email.
 
-6. [ ] Value Object de Senha
+6. [x] Value Object de Senha
 
    - Criando um objeto de valor para tratar senhas.
 
