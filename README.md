@@ -12,7 +12,7 @@ Este é um guia passo a passo para criar uma API de sistema de login utilizando 
 
    - Criando as classes necessárias para representar as entidades e objetos de valor do seu sistema.
 
-3. [ ] String Extension
+3. [x] String Extension
 
    - Implementando uma extensão de string para funcionalidades auxiliares.
 
