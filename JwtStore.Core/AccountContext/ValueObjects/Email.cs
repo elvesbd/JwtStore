@@ -8,6 +8,7 @@ public partial class Email : ValueObject
 {
     private const string Pattern = @"^\w+([-+.']\w+)*@\w+([-.]\w+)*\.\w+([-.]\w+)*$";
 
+    protected Email() { }
 
     public Email(string address)
     {
@@ -42,5 +43,5 @@ public partial class Email : ValueObject
         => Address;
 
     [GeneratedRegex(Pattern)]
-    private partial void EmailRegex();
+    private partial Regex EmailRegex();
 }
