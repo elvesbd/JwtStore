@@ -8,7 +8,7 @@ Este é um guia passo a passo para criar uma API de sistema de login utilizando 
 
    - Iniciando um novo projeto ASP.NET utilizando o template apropriado.
 
-2. [ ] Entity e Value Object
+2. [x] Entity e Value Object
 
    - Criando as classes necessárias para representar as entidades e objetos de valor do seu sistema.
 
