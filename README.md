@@ -28,11 +28,11 @@ Este é um guia passo a passo para criar uma API de sistema de login utilizando 
 
    - Criando um objeto de valor para tratar senhas.
 
-7. [ ] Gerando senhas aleatórias
+7. [x] Gerando senhas aleatórias
 
    - Implementando a geração de senhas aleatórias.
 
-8. [ ] Password Hashing
+8. [x] Password Hashing
 
    - Desenvolvendo a lógica para o hashing de senhas.
 
