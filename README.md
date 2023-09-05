@@ -52,7 +52,7 @@ Este é um guia passo a passo para criar uma API de sistema de login utilizando 
 
     - Criando o DataContext para interagir com o banco de dados.
 
-13. [ ] Configurando a API
+13. [x] Configurando a API
 
     - Configurando as opções da API, como roteamento e formatação.
 
