@@ -44,7 +44,7 @@ Este é um guia passo a passo para criar uma API de sistema de login utilizando 
 
     - Concluindo a implementação da entidade User.
 
-11. [ ] Mapeando o User
+11. [x] Mapeando o User
 
     - Configurando o mapeamento da entidade User para o banco de dados.
 
