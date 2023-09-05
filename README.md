@@ -56,7 +56,7 @@ Este é um guia passo a passo para criar uma API de sistema de login utilizando 
 
     - Configurando as opções da API, como roteamento e formatação.
 
-14. [ ] Organizando a API
+14. [x] Organizando a API
 
     - Organizando os diferentes componentes da sua API em pastas separadas.
 
