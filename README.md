@@ -48,7 +48,7 @@ Este é um guia passo a passo para criar uma API de sistema de login utilizando 
 
     - Configurando o mapeamento da entidade User para o banco de dados.
 
-12. [ ] Criando o DataContext
+12. [x] Criando o DataContext
 
     - Criando o DataContext para interagir com o banco de dados.
 
