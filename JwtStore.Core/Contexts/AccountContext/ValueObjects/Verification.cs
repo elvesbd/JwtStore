@@ -1,4 +1,4 @@
-using JwtStore.Core.SharedContext.ValueObjects;
+using JwtStore.Core.Contexts.SharedContext.ValueObjects;
 
 namespace JwtStore.Core.Contexts.AccountContext.ValueObjects;
 

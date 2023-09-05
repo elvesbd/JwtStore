@@ -1,6 +1,6 @@
 using System.Text.RegularExpressions;
-using JwtStore.Core.SharedContext.Extensions;
-using JwtStore.Core.SharedContext.ValueObjects;
+using JwtStore.Core.Contexts.SharedContext.Extensions;
+using JwtStore.Core.Contexts.SharedContext.ValueObjects;
 
 namespace JwtStore.Core.Contexts.AccountContext.ValueObjects;
 
@@ -26,7 +26,7 @@ public partial class Email : ValueObject
 
     public string Address { get; }
     public string Hash => Address.ToBase64();
-    public Verification Verification { get; private set; }
+    public Verification Verification { get; private set; } = new();
 
     public void ResendVerification()
     {

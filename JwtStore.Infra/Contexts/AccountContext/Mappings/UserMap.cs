@@ -18,7 +18,7 @@ public class UserMap : IEntityTypeConfiguration<User>
             .IsRequired(true);
 
         builder.Property(x => x.Image)
-            .HasColumnName("Name")
+            .HasColumnName("Image")
             .HasColumnType("VARCHAR")
             .HasMaxLength(255)
             .IsRequired(true);
