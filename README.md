@@ -60,7 +60,7 @@ Este é um guia passo a passo para criar uma API de sistema de login utilizando 
 
     - Organizando os diferentes componentes da sua API em pastas separadas.
 
-15. [ ] Gerando o banco de dados
+15. [x] Gerando o banco de dados
 
     - Utilizando as migrações do Entity Framework para criar o banco de dados.
 
