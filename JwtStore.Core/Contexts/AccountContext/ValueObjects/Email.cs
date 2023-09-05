@@ -2,7 +2,7 @@ using System.Text.RegularExpressions;
 using JwtStore.Core.SharedContext.Extensions;
 using JwtStore.Core.SharedContext.ValueObjects;
 
-namespace JwtStore.Core.AccountContext.ValueObjects;
+namespace JwtStore.Core.Contexts.AccountContext.ValueObjects;
 
 public partial class Email : ValueObject
 {
