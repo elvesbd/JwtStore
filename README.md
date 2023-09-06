@@ -96,7 +96,7 @@ Este é um guia passo a passo para criar uma API de sistema de login utilizando 
 
     - Desenvolvendo a lógica para interagir com os repositórios.
 
-24. [ ] Finalizando o handler
+24. [x] Finalizando o handler
 
     - Concluindo a implementação dos handlers dos casos de uso.
 
