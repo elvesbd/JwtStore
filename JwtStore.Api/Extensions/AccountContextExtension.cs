@@ -22,5 +22,11 @@ public static class AccountExtension
     }
 
     public static void MapAccountEndpoints(this WebApplication builder)
-    { }
+    {
+        #region Create
+
+
+
+        #endregion
+    }
 }
