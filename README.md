@@ -64,7 +64,7 @@ Este é um guia passo a passo para criar uma API de sistema de login utilizando 
 
     - Utilizando as migrações do Entity Framework para criar o banco de dados.
 
-16. [ ] Use Cases
+16. [x] Use Cases
 
     - Definindo os casos de uso da sua aplicação.
 
