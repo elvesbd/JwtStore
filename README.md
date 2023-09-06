@@ -100,7 +100,7 @@ Este é um guia passo a passo para criar uma API de sistema de login utilizando 
 
     - Concluindo a implementação dos handlers dos casos de uso.
 
-25. [ ] Implementando o repositório
+25. [x] Implementando o repositório
 
     - Implementando os métodos dos repositórios.
 
