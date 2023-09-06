@@ -108,7 +108,7 @@ Este é um guia passo a passo para criar uma API de sistema de login utilizando 
 
     - Desenvolvendo a lógica de negócio nos serviços.
 
-27. [ ] Configurando a API
+27. [x] Configurando a API
 
     - Configurando as injeções de dependência e outros detalhes da API.
 
