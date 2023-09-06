@@ -1,6 +1,5 @@
 using JwtStore.Core.Contexts.AccountContext.Entities;
 using JwtStore.Core.Contexts.AccountContext.UseCases.Create.Contracts;
-using JwtStore.Core.Contexts.AccountContext.UseCases.Create.Exceptions;
 using JwtStore.Core.Contexts.AccountContext.ValueObjects;
 
 namespace JwtStore.Core.Contexts.AccountContext.UseCases.Create;
@@ -68,9 +67,29 @@ public class Handler
         #endregion
 
         #region 04 - Persist data
+
+        try
+        {
+            await _repository.SaveAsync(user, cancellationToken);
+        }
+        catch
+        {
+            return new Response("Failed to persist data!", 500);
+        }
+
         #endregion
 
         #region 05 - Send welcome e-mail
+
+        try
+        {
+            await _service.SendVerificationEmailAsync(user, cancellationToken);
+        }
+        catch
+        { }
+
         #endregion
+
+        return new Response("Account created!", new ResponseData(user.Id, user.Name, user.Email));
     }
 }
