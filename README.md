@@ -76,7 +76,7 @@ Este é um guia passo a passo para criar uma API de sistema de login utilizando 
 
     - Implementando a lógica para compor as respostas da API.
 
-19. [ ] Specification
+19. [x] Specification
 
     - Desenvolvendo especificações para consulta de dados.
 
