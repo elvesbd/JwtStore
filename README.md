@@ -92,7 +92,7 @@ Este é um guia passo a passo para criar uma API de sistema de login utilizando 
 
     - Criando entidades baseadas nos seus objetos de valor.
 
-23. [ ] Interagindo com repositórios
+23. [x] Interagindo com repositórios
 
     - Desenvolvendo a lógica para interagir com os repositórios.
 
