@@ -120,7 +120,7 @@ Este é um guia passo a passo para criar uma API de sistema de login utilizando 
 
     - Configurando o Mediator para tratar os comandos e consultas.
 
-30. [ ] Criando o método POST
+30. [x] Criando o método POST
 
     - Criando o método POST para a autenticação.
 
