@@ -53,6 +53,18 @@ public class Handler
         #endregion
 
         #region 03 - Verify if user existis
+
+        try
+        {
+            var existis = await _repository.AnyAsync(request.Email, cancellationToken);
+            if (existis)
+                return new Response("E-mail already in use", 400);
+        }
+        catch
+        {
+            return new Response("Failed to verify registered E-mail!", 500);
+        }
+
         #endregion
 
         #region 04 - Persist data
