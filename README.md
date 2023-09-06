@@ -80,7 +80,7 @@ Este é um guia passo a passo para criar uma API de sistema de login utilizando 
 
     - Desenvolvendo especificações para consulta de dados.
 
-20. [ ] Repositórios e Serviços
+20. [x] Repositórios e Serviços
 
     - Criando os repositórios e serviços necessários para interagir com o banco de dados.
 
