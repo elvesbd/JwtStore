@@ -116,7 +116,7 @@ Este é um guia passo a passo para criar uma API de sistema de login utilizando 
 
     - Registrando as dependências da injeção de dependência.
 
-29. [ ] Adicionando suporte ao Mediator
+29. [x] Adicionando suporte ao Mediator
 
     - Configurando o Mediator para tratar os comandos e consultas.
 
