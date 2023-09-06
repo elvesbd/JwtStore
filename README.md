@@ -84,7 +84,7 @@ Este é um guia passo a passo para criar uma API de sistema de login utilizando 
 
     - Criando os repositórios e serviços necessários para interagir com o banco de dados.
 
-21. [ ] Validando a requisição
+21. [x] Validando a requisição
 
     - Implementando a validação das requisições recebidas.
 
