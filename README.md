@@ -68,7 +68,7 @@ Este é um guia passo a passo para criar uma API de sistema de login utilizando 
 
     - Definindo os casos de uso da sua aplicação.
 
-17. [ ] Response
+17. [x] Response
 
     - Criando as classes de resposta para as operações da API.
 
