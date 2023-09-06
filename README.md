@@ -88,7 +88,7 @@ Este é um guia passo a passo para criar uma API de sistema de login utilizando 
 
     - Implementando a validação das requisições recebidas.
 
-22. [ ] Gerando entidades de value objects
+22. [x] Gerando entidades de value objects
 
     - Criando entidades baseadas nos seus objetos de valor.
 
