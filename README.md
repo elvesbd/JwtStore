@@ -104,7 +104,7 @@ Este é um guia passo a passo para criar uma API de sistema de login utilizando 
 
     - Implementando os métodos dos repositórios.
 
-26. [ ] Implementando o serviço
+26. [x] Implementando o serviço
 
     - Desenvolvendo a lógica de negócio nos serviços.
 
