@@ -72,7 +72,7 @@ Este é um guia passo a passo para criar uma API de sistema de login utilizando 
 
     - Criando as classes de resposta para as operações da API.
 
-18. [ ] Compondo a resposta
+18. [x] Compondo a resposta
 
     - Implementando a lógica para compor as respostas da API.
 
