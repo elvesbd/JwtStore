@@ -112,9 +112,9 @@ Este é um guia passo a passo para criar uma API de sistema de login utilizando 
 
     - Configurando as injeções de dependência e outros detalhes da API.
 
-28. [ ] Registrando as dependências
+28. [x] Registrando as dependências
 
-    - Registre as dependências da injeção de dependência.
+    - Registrando as dependências da injeção de dependência.
 
 29. [ ] Adicionando suporte ao Mediator
 
