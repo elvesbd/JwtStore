@@ -20,6 +20,8 @@ public class Password : ValueObject
 
     public string Hash { get; set; } = string.Empty;
     public string ResetCode { get; } = Guid.NewGuid().ToString("N")[..8].ToUpper();
+    public bool Challenge(string plainTextPassword)
+        => Verify(Hash, plainTextPassword);
 
     private static string Generate(
         short length = 16,
