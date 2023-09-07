@@ -124,7 +124,7 @@ Este é um guia passo a passo para criar uma API de sistema de login utilizando 
 
     - Criando o método POST para a autenticação.
 
-31. [ ] dotnet user secrets
+31. [x] dotnet user secrets
 
     - Utilizando o dotnet user secrets para gerenciar as configurações sensíveis.
 
