@@ -58,7 +58,7 @@ public class Handler : IRequestHandler<Request, Response>
         {
             var existis = await _repository.AnyAsync(request.Email, cancellationToken);
             if (existis)
-                return new Response("E-mail already in use", 400);
+                return new Response("E-mail is already in use", 400);
         }
         catch
         {
