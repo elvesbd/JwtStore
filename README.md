@@ -136,7 +136,7 @@ Este é um guia passo a passo para criar uma API de sistema de login utilizando 
 
     - Implementando o caso de uso de autenticação.
 
-34. [ ] Authenticate Handler
+34. [x] Authenticate Handler
 
     - Desenvolvendo o handler para o caso de uso de autenticação.
 
