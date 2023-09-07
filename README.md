@@ -132,7 +132,7 @@ Este é um guia passo a passo para criar uma API de sistema de login utilizando 
 
     - Realizando testes para verificar o funcionamento correto da API.
 
-33. [ ] Authenticate Use Case
+33. [x] Authenticate Use Case
 
     - Implementando o caso de uso de autenticação.
 
