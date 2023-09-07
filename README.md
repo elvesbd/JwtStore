@@ -128,7 +128,7 @@ Este é um guia passo a passo para criar uma API de sistema de login utilizando 
 
     - Utilizando o dotnet user secrets para gerenciar as configurações sensíveis.
 
-32. [ ] Testando a API
+32. [x] Testando a API
 
     - Realizando testes para verificar o funcionamento correto da API.
 
