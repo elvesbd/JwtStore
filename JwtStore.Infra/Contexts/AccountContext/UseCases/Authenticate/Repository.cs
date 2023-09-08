@@ -15,6 +15,7 @@ public class Repository : IRepository
     {
         return await _context.Users
             .AsNoTracking()
+            .Include(user => user.Roles)
             .FirstOrDefaultAsync(user => user.Email.Address == email, cancellationToken);
     }
 }
