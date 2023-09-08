@@ -140,7 +140,7 @@ Este é um guia passo a passo para criar uma API de sistema de login utilizando 
 
     - Desenvolvendo o handler para o caso de uso de autenticação.
 
-35. [ ] Authenticate Repository
+35. [x] Authenticate Repository
 
     - Implementando a interação com o repositório na autenticação.
 
