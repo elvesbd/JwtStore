@@ -168,7 +168,7 @@ Este é um guia passo a passo para criar uma API de sistema de login utilizando 
 
     - Adicionando informações de papéis ao token JWT.
 
-42. [ ] Utilizando os Roles
+42. [x] Utilizando os Roles
     - Protegendo as rotas da API utilizando a autenticação por papéis.
 
 ## 🤝 Colaborador
