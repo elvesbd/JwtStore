@@ -152,7 +152,7 @@ Este é um guia passo a passo para criar uma API de sistema de login utilizando 
 
     - Implementando a geração e retorno do token JWT.
 
-38. [ ] Criando Roles
+38. [x] Criando Roles
 
     - Criando papéis (roles) para gerenciar as permissões.
 
