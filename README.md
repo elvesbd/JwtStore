@@ -156,7 +156,7 @@ Este é um guia passo a passo para criar uma API de sistema de login utilizando 
 
     - Criando papéis (roles) para gerenciar as permissões.
 
-39. [ ] Mapeando Roles
+39. [x] Mapeando Roles
 
     - Realizando o mapeamento dos papéis.
 
