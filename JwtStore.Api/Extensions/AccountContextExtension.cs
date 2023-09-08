@@ -1,4 +1,3 @@
-using JwtStore.Core.Contexts.AccountContext.UseCases.Create;
 using MediatR;
 
 namespace JwtStore.Api.Extensions;
@@ -22,6 +21,16 @@ public static class AccountExtension
         >();
 
         #endregion
+
+        #region Authenticate
+
+        builder.Services.AddTransient
+        <
+            JwtStore.Core.Contexts.AccountContext.UseCases.Authenticate.Contracts.IRepository,
+            JwtStore.Infra.Contexts.AccountContext.UseCases.Authenticate.Repository
+        >();
+
+        #endregion
     }
 
     public static void MapAccountEndpoints(this WebApplication app)
@@ -30,7 +39,7 @@ public static class AccountExtension
 
         app.MapPost("api/v1/users", async
         (
-            Request request,
+            JwtStore.Core.Contexts.AccountContext.UseCases.Create.Request request,
             IRequestHandler
             <
                 JwtStore.Core.Contexts.AccountContext.UseCases.Create.Request,
@@ -41,6 +50,26 @@ public static class AccountExtension
             var result = await handler.Handle(request, new CancellationToken());
             return result.IsSuccess
                 ? Results.Created($"api/v1/users/{result.Data?.Id}", result)
+                : Results.Json(result, statusCode: result.Status);
+        });
+
+        #endregion
+
+        #region Authenticate
+
+        app.MapPost("api/v1/authenticate", async
+        (
+            JwtStore.Core.Contexts.AccountContext.UseCases.Authenticate.Request request,
+            IRequestHandler
+            <
+                JwtStore.Core.Contexts.AccountContext.UseCases.Authenticate.Request,
+                JwtStore.Core.Contexts.AccountContext.UseCases.Authenticate.Response
+            > handler
+        ) =>
+        {
+            var result = await handler.Handle(request, new CancellationToken());
+            return result.IsSuccess
+                ? Results.Ok(result)
                 : Results.Json(result, statusCode: result.Status);
         });
 
