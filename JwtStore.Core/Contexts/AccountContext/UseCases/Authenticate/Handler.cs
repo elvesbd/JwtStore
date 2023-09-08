@@ -77,7 +77,7 @@ public class Handler : IRequestHandler<Request, Response>
                 Id = user.Id.ToString(),
                 Name = user.Name,
                 Email = user.Email,
-                Roles = null
+                Roles = user.Roles.Select(role => role.Name).ToArray()
             };
             return new Response(string.Empty, data);
         }
