@@ -144,7 +144,7 @@ Este é um guia passo a passo para criar uma API de sistema de login utilizando 
 
     - Implementando a interação com o repositório na autenticação.
 
-36. [ ] JWT Service
+36. [x] JWT Service
 
     - Criando um serviço para lidar com tokens JWT.
 
