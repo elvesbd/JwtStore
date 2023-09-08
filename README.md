@@ -160,7 +160,7 @@ Este é um guia passo a passo para criar uma API de sistema de login utilizando 
 
     - Realizando o mapeamento dos papéis.
 
-40. [ ] Recuperando os Roles
+40. [x] Recuperando os Roles
 
     - Implementando a lógica para recuperar os papéis do usuário.
 
