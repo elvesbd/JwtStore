@@ -148,7 +148,7 @@ Este é um guia passo a passo para criar uma API de sistema de login utilizando 
 
     - Criando um serviço para lidar com tokens JWT.
 
-37. [ ] Retornando o Token
+37. [x] Retornando o Token
 
     - Implementando a geração e retorno do token JWT.
 
